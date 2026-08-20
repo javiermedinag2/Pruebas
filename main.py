@@ -1,4 +1,3 @@
-import time
 def clima(temperatura):
     if temperatura < 0:
         return "Helando"

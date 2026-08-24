@@ -1,7 +1,7 @@
 from main import clima
 
 def test_clima():
-    assert clima(50) == "Helando"
+    assert clima(-5) == "Helando"
 def test_clima_frio():
     assert clima(50) == "Frio"
 def test_clima_fresco():

@@ -3,7 +3,7 @@ from main import clima
 def test_clima():
     assert clima(-5) == "Helando"
 def test_clima_frio():
-    assert clima(50) == "Frio"
+    assert clima(5) == "Frio"
 def test_clima_fresco():
     assert clima(15) == "Fresco"
 def test_clima_caluroso():

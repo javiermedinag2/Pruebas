@@ -1,3 +1,4 @@
+import random
 def clima(temperatura):
     if temperatura < 0:
         return "Helando"

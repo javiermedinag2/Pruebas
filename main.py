@@ -20,7 +20,9 @@ app = Flask(__name__)
 # Rutas de la API
 @app.route('/')
 def index():
-    return "<H1> Bienvenido a la API de Clima </H1>",200
+    bienvenida = "<H1> Bienvenido a la API de Clima </H1>"
+    bienvenida += "<p> Para obtener el clima, envía una solicitud POST a /clima con un JSON que contenga la temperatura.</p>"
+    return bienvenida,200
 
 @app.route('/clima', methods=['POST'])
 def obtener_clima():

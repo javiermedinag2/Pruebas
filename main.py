@@ -39,6 +39,7 @@ def obtener_clima_get():
     clima_result = clima(float(temperatura))
     return jsonify({'clima': clima_result}),200
 
+
 # Iniciar la aplicación Flask
 if __name__ == '__main__':
     app.run(debug=True, port=80)
